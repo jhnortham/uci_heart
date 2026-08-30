@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local datasets
+data/
+
+# Trained model artifacts
+models/
+*.pkl
+*.joblib
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp file
+inspect_heart.txt
